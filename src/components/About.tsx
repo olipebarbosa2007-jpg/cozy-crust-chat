@@ -1,4 +1,5 @@
 import { Clock, Heart, Wheat } from "lucide-react";
+import bakerImg from "@/assets/hero-bread.jpg";
 
 const features = [
   { icon: Wheat, title: "Ingredientes selecionados", desc: "Farinhas especiais e fermento natural cultivado em casa." },
@@ -36,8 +37,8 @@ const About = () => {
         <div className="relative">
           <div className="aspect-square overflow-hidden rounded-3xl shadow-warm">
             <img
-              src="/src/assets/hero-bread.jpg"
-              alt="Padeiro preparando pães"
+              src={bakerImg}
+              alt="Pães caseiros artesanais"
               loading="lazy"
               className="h-full w-full object-cover"
             />
