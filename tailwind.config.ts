@@ -57,6 +57,14 @@ export default {
           border: "hsl(var(--sidebar-border))",
           ring: "hsl(var(--sidebar-ring))",
         },
+        crust: "hsl(var(--crust))",
+        "crust-deep": "hsl(var(--crust-deep))",
+        wheat: "hsl(var(--wheat))",
+        cream: "hsl(var(--cream))",
+        whatsapp: {
+          DEFAULT: "hsl(var(--whatsapp))",
+          hover: "hsl(var(--whatsapp-hover))",
+        },
       },
       borderRadius: {
         lg: "var(--radius)",
